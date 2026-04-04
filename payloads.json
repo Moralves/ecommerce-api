@@ -1,0 +1,65 @@
+{
+  "clientes": {
+    "criar": {
+      "endpoint": "POST /clientes",
+      "payload": {
+        "nome": "João da Silva",
+        "email": "joao.silva@example.com",
+        "enderecos": [
+          {
+            "rua": "Rua das Flores, 123",
+            "cidade": "São Paulo",
+            "cep": "01000-000"
+          }
+        ]
+      }
+    },
+    "atualizar": {
+      "endpoint": "PUT /clientes/1",
+      "payload": {
+        "nome": "João da Silva Sauro",
+        "email": "joao.sauro@example.com",
+        "enderecos": []
+      }
+    }
+  },
+  "produtos": {
+    "criar": {
+      "endpoint": "POST /produtos",
+      "payload": {
+        "nome": "Teclado Mecânico RGB",
+        "preco": 350.00,
+        "estoque": 10
+      }
+    },
+    "atualizar": {
+      "endpoint": "PUT /produtos/1",
+      "payload": {
+        "nome": "Teclado Mecânico RGB - Switch Blue",
+        "preco": 380.00,
+        "estoque": 8
+      }
+    }
+  },
+  "pedidos": {
+    "criar": {
+      "endpoint": "POST /pedidos",
+      "payload": {
+        "clienteId": 1,
+        "enderecoEntregaId": 1,
+        "itens": [
+          {
+            "produtoId": 1,
+            "quantidade": 2
+          }
+        ]
+      }
+    },
+    "atualizar_status": {
+      "endpoint": "PATCH /pedidos/1/status",
+      "payload": {
+        "status": "PAGO"
+      }
+    }
+  }
+}
