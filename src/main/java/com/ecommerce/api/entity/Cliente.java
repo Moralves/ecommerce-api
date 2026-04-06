@@ -1,4 +1,4 @@
-package com.ecommerce.api.model;
+package com.ecommerce.api.entity;
 
 import jakarta.persistence.*;
 import java.util.ArrayList;

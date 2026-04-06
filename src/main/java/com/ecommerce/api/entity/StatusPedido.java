@@ -1,4 +1,4 @@
-package com.ecommerce.api.model;
+package com.ecommerce.api.entity;
 
 public enum StatusPedido {
     CRIADO,

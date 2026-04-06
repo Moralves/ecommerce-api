@@ -2,7 +2,7 @@ package com.ecommerce.api.service;
 
 import com.ecommerce.api.dto.ProdutoDTO;
 import com.ecommerce.api.exception.RecursoNaoEncontradoException;
-import com.ecommerce.api.model.Produto;
+import com.ecommerce.api.entity.Produto;
 import com.ecommerce.api.repository.ProdutoRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

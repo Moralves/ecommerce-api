@@ -1,6 +1,6 @@
 package com.ecommerce.api.dto;
 
-import com.ecommerce.api.model.StatusPedido;
+import com.ecommerce.api.entity.StatusPedido;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
 import java.math.BigDecimal;

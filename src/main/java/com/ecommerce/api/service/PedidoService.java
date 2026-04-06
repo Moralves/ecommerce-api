@@ -4,7 +4,7 @@ import com.ecommerce.api.dto.ItemPedidoDTO;
 import com.ecommerce.api.dto.PedidoDTO;
 import com.ecommerce.api.exception.RecursoNaoEncontradoException;
 import com.ecommerce.api.exception.RegraNegocioException;
-import com.ecommerce.api.model.*;
+import com.ecommerce.api.entity.*;
 import com.ecommerce.api.repository.ClienteRepository;
 import com.ecommerce.api.repository.EnderecoRepository;
 import com.ecommerce.api.repository.PedidoRepository;
